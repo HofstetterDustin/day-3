@@ -11,9 +11,14 @@
     background-color: black;
 
 }
-.red{
-    background-color: red;
-
+.redcircle{
+    width: 10px;
+    height: 10px;
+    -webkit-boarder-radius: 5px;
+    -moz-boarder-radius: 5px;
+    border-radius: 5px;
+    background: red;
+    
 }
 .redbright{
     background-color: 
