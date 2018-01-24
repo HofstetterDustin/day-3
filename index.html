@@ -1,41 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="C:\source\codeworks\day3\assests\style.css">
+    <style>
+        div {
+
+            height: 300px
+        }
+
+        .top {
+            padding-top: 64px;
+            text-align: center;
+        }
+
+        .middle {
+            background-color: blue;
+            height: 480px;
+            padding: 20px;
+        }
+
+        .card-white {
+            background: white;
+            padding: 30px;
+            box-shadow: 1px 1px 2px #e7e7e7;
+            border-radius: 4px;
+            margin: 50px 50px;
+        }
+    </style>
 </head>
+
 <body>
-    <div class="background">
-        <div class="lightbox">
-            
-        </div>
-        <div class="lightpole">
+
+    <div class="container-fluid">
+
+        <div class="top row">
+
+            <div class="col-3">
+                <h1 class="trc1"></h1>
+            </div>
+            <div class="col-6">
+                <h1>Two grid tricks</h1>
+                <h2>Wrapper around .container or cards inside .col</h2>
+            </div>
+            <div class="col-3">
+                <h1></h1>
+            </div>
 
         </div>
-            <div id="redcircle">
-               
-            </div>
-            <div class="redbright">
 
-            </div>
-            <div class="yellow">
-                <button> solid
-                </button>
+        <div class="bottom row">
 
+                <div class="col-3">
+                    <h1>1</h1>
+                </div>
+                <div class="col-6">
+                    <h1>2</h1>
+                </div>
+                <div class="col-3">
+                    <h1>3</h1>
+                </div>
+        
             </div>
-            <div class="yellowbright">
 
-            </div>
-            <div class="green">
+        <div class="middle row">
+            <div class="col-xs-12 col-md-12">
 
-            </div>
-            <div class="greenbright">
+                <h3>
+                    <center>Cards inside .col</center>
+                </h3>
+                <div class="row">
+                <div class="col-xs-12 col-md-6">
 
+
+                    <div class="card-white">
+                        <h3><center>Three</center></h3>
+                        <center>This is text about dogs</center>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="card-white">
+                        <h3><center>Four</center></h3>
+                        <center>This is text about non-dogs</center>
+                    </div>
+                </div>
             </div>
+
+        </div>
+
 
     </div>
+
+    
+
+    </div>
+
 </body>
+
 </html>

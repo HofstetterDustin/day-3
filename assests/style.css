@@ -1,46 +1,22 @@
-.background{
-    background-color: green;
 
+
+.h1{
+
+    text-align: 10px;
 }
 
-.lightbox{
-    background-color: black;
-
-}
-.lightpole{
-    background-color: black;
-
-}
-.redcircle{
-    width: 10px;
-    height: 10px;
-    -webkit-boarder-radius: 5px;
-    -moz-boarder-radius: 5px;
-    border-radius: 5px;
-    background: red;
+.col-6 {
+    padding-top: 64px;
     
 }
-.redbright{
-    background-color: 
-
+.middle{
+    background-color: blue;
+    height: 300px;
 }
-
-.yellow{
-    background-color: yellow;
-
-}
-
-.yellowbright{
-    background-color:
-
-}
-
-.green{
-    background-color: green;
-
-}
-
-.greenbright{
-    background-color:
-
+.card-white {
+    background: white;
+    padding: 30px;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 4px;
+    margin: 10px 30px;
 }
